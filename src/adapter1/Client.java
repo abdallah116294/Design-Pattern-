@@ -7,9 +7,11 @@ public class Client
            Vehicle car =new Car();
    //  playWithVehicle (car);
         //test the bicycle clas
+        // when we use the method get an error
      Bicycle bicycle=new Bicycle();
      bicycle.pedal();
      bicycle.stop();bicycle.ringBell();
+
     }
     private static  void playWithVehicle(Vehicle vehicle)
     {

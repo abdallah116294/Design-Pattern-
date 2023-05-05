@@ -5,7 +5,11 @@ public class Client
 {
     public static  void  main(String[] args){
            Vehicle car =new Car();
-     playWithVehicle (car);
+   //  playWithVehicle (car);
+        //test the bicycle clas
+     Bicycle bicycle=new Bicycle();
+     bicycle.pedal();
+     bicycle.stop();bicycle.ringBell();
     }
     private static  void playWithVehicle(Vehicle vehicle)
     {
